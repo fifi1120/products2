@@ -1,4 +1,4 @@
-
+products = []
 while True:
     name = input ("请输入商品名称：")
     if name == "q": #quit逃出回圈!!
@@ -7,3 +7,6 @@ while True:
     p = [name, price]
     products.append(p)
 print(products)
+
+for p in products:
+    print (p)
